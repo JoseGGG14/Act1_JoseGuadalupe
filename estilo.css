@@ -1,0 +1,48 @@
+*{
+    margin:0;
+    padding: 0;
+}
+html{
+    font-size: 20px;
+}
+body{
+    background-size: cover;
+    padding-top: 50px;
+    background:url(hak.jpg) no-repeat center fixed;
+    background-color:palevioletred;
+}
+#menuPrincipal{
+    background-color:midnightblue;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+}
+.opcionMenuPrincipal{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 10px 50px;
+    cursor: pointer;
+    position: relative;
+    font-size: 1.5rem;
+}
+.opcionMenuPrincipal:hover{
+    background-color: darkgrey;
+}
+#botones{
+    width: 300px;
+    height: 300px;
+	border:solid 1px #00f;
+	padding: 30px;
+	margin: 10px auto;
+	text-align: center;
+    color: ivory;
+    background-color: blueviolet;
+}
+h3{
+	background-color: midnightblue;
+	height: 100px;
+    text-align: center;
+    color: honeydew;
+}

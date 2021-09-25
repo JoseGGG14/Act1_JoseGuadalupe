@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+	<script type="text/javascript" src="../js/funcion.js"></script>
+    <link rel='stylesheet' href='../css/estilos.css'>
+    <title>Ejercicio 2</title>
+</head>
+<body>
+    <nav id="menuPrincipal">
+		<h1>
+			<a class="opcionMenuPrincipal" href="../html/index.html">¡ JavaScript !</a>
+		</h1>
+	</nav>
+    <h1>Cuestionario Futbolero</h1>
+    <article id="datos" class="contenedor">
+
+    <fieldset>
+    <label for="">¿Juegas futbol?</label>
+    <select name="futbol" id="futbol">
+        <option name="p1" value="Si" selected>Si</option>
+        <option name="p1" value="No">No</option>
+        <option name="p1" value="Aveses">Aveses</option>
+    </select>
+    <br>
+    <br>
+    <label for="">¿Con quién juegas futbol?</label>
+    <select name="juegaron" id="juegaron">
+        <option name="p2" value="Con familia">Con familia</option>
+        <option name="p2" value="Con amigos">Con amigos</option>
+        <option name="p2" value="Yo solo">Yo solo</option>
+    </select>
+    <br>
+    <br>
+    <label for="">¿Por que juegas futbol?</label>
+    <select name="porque" id="porque">
+        <option name="p3" value="Me divierto">Me divierto</option>
+        <option name="p3" value="Me desestreso">Me desestreso</option>
+        <option name="p3" value="Para Practicar">Para Practicar</option>
+    </select>
+    <br>
+    <br>
+    <label for="">¿Ves partidos de futbol?</label>
+    <select name="partidos" id="partidos">
+        <option name="p4" value="Si">Si</option>
+        <option name="p4" value="No">No</option>
+        <option name="p4" value="Aveses">Aveses</option>
+    </select>
+    <br>
+    <br>
+    <label for="">¿A qué equipo le vas?</label>
+    <select name="equipo" id="equipo">
+        <option name="p5" value="America">America</option>
+        <option name="p5" value="León">León</option>
+        <option name="p5" value="Cruz Azul">Cruz Azul</option>
+    </select>
+    </fieldset>
+    <input type="button" value="Mostrar" onclick="mostrarDatos()"/>
+    </article>
+
+    <p id="resultado" class="res">Resultado!!!</p><br>
+
+    <footer>
+        <h2>Elaborado por: José Guadalupe Gómez Gómez</h2>
+    </footer>
+
+</body>
+</html>

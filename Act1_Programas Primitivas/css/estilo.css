@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 16px;
+}
+body{
+    font-size: 0px;
+    background:url(../imagenes/figuras.png) no-repeat center fixed;
+    background-size: cover;
+    padding-top: 50px;
+}
+#menuPrincipal{
+    background-color: deepskyblue;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 1;
+}
+.opcionMenuPrincipal{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 50px;
+    cursor: pointer;
+    position: relative;
+    font-size: 1.5rem;
+}
+   .opcionMenuPrincipal:hover{
+    background-color: rgb(255,255,255,0.4);
+   }
+.contenido{
+    width: 100%;
+    overflow: hidden;
+    min-width: 320px;
+}
+.quienesomos{
+    position: relative;
+    font-size: 1.5rem;
+}
+.contenedor{
+    width: 300px;
+    height: 105px;
+    background-color:deepskyblue;
+    position: relative;
+    padding: 10px;
+    border:solid 1px orange;
+    margin: 10px auto;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.res{
+    width: 700px;
+    border:solid 1px deepskyblue;
+    padding: 10px;
+    margin: 10px auto;
+}
+input[type="button"], a{
+    width: 20%;
+    padding: 5px;
+    margin-bottom: 10px;
+    display: block;
+    background-color:darkorange;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    font-size: 14px;
+    font-family: arial;
+    font-weight: 100;
+    margin: 0 auto;
+    position: relative;
+}
+h4{
+    background-color: darkorange;
+	height: 100px;
+    text-align: center;
+    color: honeydew;
+}
+
